@@ -1,13 +1,12 @@
+import { useDroppable } from '@dnd-kit/core';
+import { useDragDropContext } from './DragDropContext'; // imports the context for drag-drop
+import DraggableWrapper from './DraggableWrapper'; // imports our wrapper: takes a component and wraps it in dnd functionality
+
 /*
 Container that accesses our droppable containers db. Represents a particular container based on id. Wraps its child item components in DraggableWrapper
 props:  id -> the id of the container this component represents
 exports:    DroppableContainer -> A container wrapped in droppable functionality. 
 */
-import { useDroppable } from '@dnd-kit/core';
-import { useDragDropContext } from './DragDropContext'; // imports the context for drag-drop
-import DraggableWrapper from './DraggableWrapper'; // imports our wrapper: takes a component and wraps it in dnd functionality
-
-// basic droppable container
 function DroppableContainer({ id }) {
     const { containers } = useDragDropContext(); // access list of containers from our context
     const { isOver, setNodeRef } = useDroppable({ id }); // droppable attributes

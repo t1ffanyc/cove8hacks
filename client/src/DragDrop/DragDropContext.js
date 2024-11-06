@@ -1,3 +1,9 @@
+import { createContext, useContext, useCallback } from 'react';
+import { DndContext } from '@dnd-kit/core'; // core dragdrop utilities
+
+// creating a react context so child components can access our containers db.
+const DragDropContext = createContext();
+
 /* 
 Parent wrapper for all our draggable-droppable content.
 props:  containers -> the db for our containers.
@@ -7,13 +13,6 @@ exports:
         DragDropProvider: a component to wrap around our droppable containers
         useDragDropContext: a function that simplifies using useContext() for child components. 
 */
-
-import { createContext, useContext, useCallback } from 'react';
-import { DndContext } from '@dnd-kit/core'; // core dragdrop utilities
-
-// we create a react context so child components can access our droppable containers and handleDragEnd() function.
-const DragDropContext = createContext();
-
 export function DragDropProvider({ containers, setContainers, children }) {
     // on drag end: 
     const handleDragEnd = useCallback(({ active, over }) => {
