@@ -3,11 +3,11 @@ import React, { useState } from 'react';
 import Header from './Header.js';
 import Planner from './Planner.js';
 import Requirements from './Requirements.js';
- import { DragDropProvider } from './DragDrop/DragDropContext';
- import DroppableContainer from './DragDrop/DroppableContainer';
+// import { DragDropProvider } from './DragDrop/DragDropContext';
+// import DroppableContainer from './DragDrop/DroppableContainer';
 
 function App() {
-  // DRAG DROP TESTER
+  /* DRAG DROP TESTER
   // create containers we want to be droppable, and items we want to be draggable.
   const [containers, setContainers] = useState({
     container1: [
@@ -29,15 +29,15 @@ function App() {
       </div>
     </DragDropProvider>
   );
+  */
   
-  /*
   return (
     <div className="App">
       <Header />
       <Planner />
       <Requirements />
     </div>
-  );*/
+  );
 }
 
 export default App;
