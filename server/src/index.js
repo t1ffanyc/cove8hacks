@@ -60,8 +60,6 @@ app.listen(PORT, () => {
 });
 
 async function main() {
-  
-
   try {
     await client.connect();
     await listDatabases(client);

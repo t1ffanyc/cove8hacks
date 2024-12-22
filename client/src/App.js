@@ -1,8 +1,6 @@
 import './App.css';
 import React, { useState } from 'react';
-import Header from './Header.js';
-import Planner from './Planner.js';
-import Requirements from './Requirements.js';
+import { Header, Planner, Requirements } from './components/index.js'
 // import { DragDropProvider } from './DragDrop/DragDropContext';
 // import DroppableContainer from './DragDrop/DroppableContainer';
 
