@@ -34,8 +34,11 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Planner />
-      <Requirements />
+      <div className="container">
+        <Planner />
+        <div className="line"></div>
+        <Requirements style={{ flex:1 }} />
+      </div>
     </div>
   );
 }

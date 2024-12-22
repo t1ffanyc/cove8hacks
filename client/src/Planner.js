@@ -1,5 +1,17 @@
+import Year from './Year.js';
+
 export default function Planner() {
     return (
-        <h2>planner</h2>
+        <div className="column" style={{ backgroundColor: 'white' }}>
+            <h2>planner</h2>
+            <Year />
+            <Year />
+            <Year />
+            <Year />
+            <Year />
+            <Year />
+            <Year />
+            <Year />
+        </div>
     );
 }
