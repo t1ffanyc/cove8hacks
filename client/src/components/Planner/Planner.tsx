@@ -1,4 +1,4 @@
-import Year from './Year.jsx';
+import Year from './Year.js';
 
 export default function Planner() {
     return (
