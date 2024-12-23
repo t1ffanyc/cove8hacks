@@ -23,3 +23,13 @@ For our backend, I'm thinking it'll look like this:
 3. **models**: the models defines the structure of data and interacts with db.
 
 I was also looking at using Clean Architecture instead which looks like a pretty cool way of organizing things but thats probably definitely overkill for this project.
+
+### Contributing
+
+1. Log errors and important information using the logger function in `src/utils/logger` for centralized logging.
+
+2. Register routes in /routes.
+
+3. /controllers should deal with application logic -> validate data, determine what model functions should be called and returning appropriate output. Catch errors and send responses accordingly
+
+4. /models should contain Model and Service: model describes the structure of data and any business rules (ie. what data should be stored), service connects to the database (keep all db logic in service if possible?)

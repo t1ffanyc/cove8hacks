@@ -1,5 +1,15 @@
 import winston from "winston";
 
+/**
+ * A Logger utility function for centralized logging. Logs are displayed to console and also written to `server/app.log`
+ * 
+ * Uses:
+ * logger.info(`MESSAGE`);
+ * logger.warn(`MESSAGE`);
+ * logger.error(`MESSAGE`);
+ * logger.debug(`MESSAGE`);
+ */
+
 // configure a winston logger
 const logger = winston.createLogger({
   level: 'info',  // default log level to info
