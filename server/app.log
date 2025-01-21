@@ -1,0 +1,20 @@
+2024-12-22T23:24:47.024Z [error]: Database connection failed: 4038F2E501000000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:ssl/record/rec_layer_s3.c:907:SSL alert number 80
+
+2024-12-22T23:26:09.429Z [error]: Database connection failed: 4038F2E501000000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:ssl/record/rec_layer_s3.c:907:SSL alert number 80
+
+2024-12-22T23:26:44.623Z [error]: Database connection failed: 4038F2E501000000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:ssl/record/rec_layer_s3.c:907:SSL alert number 80
+
+2024-12-22T23:28:07.261Z [error]: Database connection failed: 4038F2E501000000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:ssl/record/rec_layer_s3.c:907:SSL alert number 80
+
+2024-12-22T23:29:46.376Z [error]: Database connection failed: 4038F2E501000000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:ssl/record/rec_layer_s3.c:907:SSL alert number 80
+
+2024-12-22T23:31:22.430Z [error]: Database connection failed: 4038F2E501000000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:ssl/record/rec_layer_s3.c:907:SSL alert number 80
+
+2024-12-22T23:32:26.184Z [error]: Database connection failed: 4038F2E501000000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:ssl/record/rec_layer_s3.c:907:SSL alert number 80
+
+2024-12-22T23:33:07.339Z [error]: Database connection failed: 4038F2E501000000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:ssl/record/rec_layer_s3.c:907:SSL alert number 80
+
+2024-12-22T23:33:40.046Z [error]: Database connection failed: MongoDB connection timeout
+2024-12-22T23:35:17.546Z [error]: Database connection failed: MongoDB connection timeout
+2024-12-22T23:36:23.667Z [error]: Database connection failed: MongoDB connection timeout
+2024-12-22T23:36:56.058Z [error]: Database connection failed: MongoDB connection timeout
