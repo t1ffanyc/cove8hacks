@@ -1,8 +1,8 @@
-import Header from './Header/Header.js';
-import Planner from './Planner/Planner.js';
-import Requirements from './Requirements/Requirements.js';
-import Class from './Class/Class.js'
-import Category from './Category/Category.js'
+import Header from './Header/Header';
+import Planner from './Planner/Planner';
+import Requirements from './Requirements/Requirements';
+import Class from './Class/Class'
+import Category from './Category/Category'
 
 // export all components from single module
-export { Header, Planner, Requirements, Class };
+export { Header, Planner, Requirements, Class, Category };
