@@ -1,6 +1,6 @@
 import mongoose, { Schema, Document } from "mongoose";
 
-export interface DegreeRequirement extends Document {
+export interface IDegreeRequirement extends Document {
   name: string;
   requirements: {
     premajor: string[];
