@@ -7,7 +7,7 @@ if (!DB_NAME) {
 throw new Error("DB_NAME is not defined in .env file");
 }
 
-// Get all users from the data  base
+// Get all users from the database
 export const getAllUsersService = async (): Promise<User[]> => {
     // get user collection
     let client = getClient();
@@ -42,5 +42,27 @@ export const insertUserService = async (newUser: User): Promise<User> => {
         logger.error("After successful insertion, failed to retrieve the inserted user");
         throw new Error("User successfully inserted, but failed to retrieve the newly inserted user");
     }
-    return insertedUser;; // Return the created user
+    return insertedUser; // Return the created user
+}
+
+// Insert a new user into the database
+export const deleteUserService = async (user: User): Promise<null> => {
+    logger.debug(`Deleting user from the database: ${JSON.stringify(user)}`);
+
+    // get user collection
+    let client = getClient();
+    if(!client) {
+        logger.error("Mongo client is not connected, unable to access database.");
+        throw new Error("Mongo client not connected.");
+    }
+    const usersCollection = client.db(DB_NAME).collection<User>("users");
+
+    // delete user
+    const result = await usersCollection.deleteOne(user);
+
+    if (result.deletedCount != 1) {
+        logger.error("Failed to delete user");
+        throw new Error("Failed to delete user");
+    }
+    return null;
 }

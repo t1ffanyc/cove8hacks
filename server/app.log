@@ -18,3 +18,185 @@
 2024-12-22T23:35:17.546Z [error]: Database connection failed: MongoDB connection timeout
 2024-12-22T23:36:23.667Z [error]: Database connection failed: MongoDB connection timeout
 2024-12-22T23:36:56.058Z [error]: Database connection failed: MongoDB connection timeout
+2025-02-06T02:49:37.633Z [error]: Database connection failed: MongoDB connection timeout
+2025-02-06T03:01:59.072Z [error]: Database connection failed: MongoDB connection timeout
+2025-02-06T23:29:11.172Z [error]: Database connection failed: MongoDB connection timeout
+2025-02-06T23:36:43.470Z [info]: Connected to MongoDB
+2025-02-06T23:36:43.478Z [info]: Server is running on http://localhost:3001
+2025-02-06T23:39:58.332Z [info]: Fetched 2 users from the database
+2025-02-14T23:17:01.148Z [error]: Database connection failed: MongoDB connection timeout
+2025-02-14T23:18:07.475Z [info]: Connected to MongoDB
+2025-02-14T23:18:07.483Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:19:05.717Z [info]: Fetched 2 users from the database
+2025-02-14T23:20:27.029Z [info]: Connected to MongoDB
+2025-02-14T23:20:27.034Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:20:30.093Z [info]: Connected to MongoDB
+2025-02-14T23:20:30.098Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:21:10.400Z [info]: Connected to MongoDB
+2025-02-14T23:21:10.406Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:21:52.263Z [info]: Connected to MongoDB
+2025-02-14T23:21:52.267Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:34:15.156Z [info]: Connected to MongoDB
+2025-02-14T23:34:15.161Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:34:19.332Z [info]: Connected to MongoDB
+2025-02-14T23:34:19.337Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:34:33.868Z [info]: Connected to MongoDB
+2025-02-14T23:34:33.875Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:34:37.161Z [info]: Connected to MongoDB
+2025-02-14T23:34:37.166Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:34:38.491Z [info]: Connected to MongoDB
+2025-02-14T23:34:38.496Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:34:41.236Z [info]: Connected to MongoDB
+2025-02-14T23:34:41.241Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:34:42.702Z [info]: Connected to MongoDB
+2025-02-14T23:34:42.707Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:34:45.089Z [info]: Connected to MongoDB
+2025-02-14T23:34:45.096Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:34:59.138Z [info]: Connected to MongoDB
+2025-02-14T23:34:59.143Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:35:05.292Z [info]: Connected to MongoDB
+2025-02-14T23:35:05.297Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:35:13.021Z [info]: Connected to MongoDB
+2025-02-14T23:35:13.027Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:35:14.847Z [info]: Connected to MongoDB
+2025-02-14T23:35:14.852Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:35:18.036Z [info]: Connected to MongoDB
+2025-02-14T23:35:18.042Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:35:22.846Z [info]: Connected to MongoDB
+2025-02-14T23:35:22.851Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:35:30.819Z [info]: Connected to MongoDB
+2025-02-14T23:35:30.825Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:35:42.949Z [info]: Connected to MongoDB
+2025-02-14T23:35:42.954Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:35:44.803Z [info]: Connected to MongoDB
+2025-02-14T23:35:44.807Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:35:57.125Z [info]: Connected to MongoDB
+2025-02-14T23:35:57.130Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:36:04.417Z [info]: Connected to MongoDB
+2025-02-14T23:36:04.422Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:36:11.936Z [info]: Connected to MongoDB
+2025-02-14T23:36:11.942Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:36:40.244Z [info]: Connected to MongoDB
+2025-02-14T23:36:40.249Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:36:42.020Z [info]: Connected to MongoDB
+2025-02-14T23:36:42.025Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:36:53.395Z [info]: Connected to MongoDB
+2025-02-14T23:36:53.399Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:37:03.855Z [info]: Connected to MongoDB
+2025-02-14T23:37:03.859Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:37:08.312Z [info]: Connected to MongoDB
+2025-02-14T23:37:08.317Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:37:15.376Z [info]: Connected to MongoDB
+2025-02-14T23:37:15.381Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:37:18.368Z [info]: Connected to MongoDB
+2025-02-14T23:37:18.373Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:37:31.263Z [info]: Connected to MongoDB
+2025-02-14T23:37:31.268Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:37:34.738Z [info]: Connected to MongoDB
+2025-02-14T23:37:34.743Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:37:57.087Z [info]: Connected to MongoDB
+2025-02-14T23:37:57.093Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:38:19.129Z [info]: Connected to MongoDB
+2025-02-14T23:38:19.134Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:38:24.055Z [info]: Connected to MongoDB
+2025-02-14T23:38:24.060Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:39:33.810Z [info]: Connected to MongoDB
+2025-02-14T23:39:33.815Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:39:39.705Z [info]: Connected to MongoDB
+2025-02-14T23:39:39.711Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:39:41.208Z [info]: Connected to MongoDB
+2025-02-14T23:39:41.213Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:39:46.879Z [info]: Connected to MongoDB
+2025-02-14T23:39:46.884Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:39:56.097Z [info]: Connected to MongoDB
+2025-02-14T23:39:56.104Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:39:57.936Z [info]: Connected to MongoDB
+2025-02-14T23:39:57.942Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:40:00.998Z [info]: Connected to MongoDB
+2025-02-14T23:40:01.003Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:40:03.863Z [info]: Connected to MongoDB
+2025-02-14T23:40:03.868Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:40:06.789Z [info]: Connected to MongoDB
+2025-02-14T23:40:06.793Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:40:09.799Z [info]: Connected to MongoDB
+2025-02-14T23:40:09.805Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:40:12.403Z [info]: Connected to MongoDB
+2025-02-14T23:40:12.409Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:40:15.249Z [info]: Connected to MongoDB
+2025-02-14T23:40:15.254Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:40:16.647Z [info]: Connected to MongoDB
+2025-02-14T23:40:16.652Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:40:46.772Z [info]: Connected to MongoDB
+2025-02-14T23:40:46.777Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:42:46.393Z [info]: Connected to MongoDB
+2025-02-14T23:42:46.398Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:42:50.284Z [info]: Connected to MongoDB
+2025-02-14T23:42:50.290Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:42:51.784Z [info]: Connected to MongoDB
+2025-02-14T23:42:51.789Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:42:56.335Z [info]: Connected to MongoDB
+2025-02-14T23:42:56.340Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:43:11.651Z [info]: Connected to MongoDB
+2025-02-14T23:43:11.656Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:43:13.087Z [info]: Connected to MongoDB
+2025-02-14T23:43:13.093Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:43:40.805Z [info]: Connected to MongoDB
+2025-02-14T23:43:40.811Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:43:45.850Z [info]: Connected to MongoDB
+2025-02-14T23:43:45.859Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:43:49.650Z [info]: Connected to MongoDB
+2025-02-14T23:43:49.655Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:43:52.528Z [info]: Connected to MongoDB
+2025-02-14T23:43:52.534Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:43:56.740Z [info]: Connected to MongoDB
+2025-02-14T23:43:56.745Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:44:01.257Z [info]: Connected to MongoDB
+2025-02-14T23:44:01.263Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:44:09.593Z [info]: Connected to MongoDB
+2025-02-14T23:44:09.597Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:44:29.250Z [info]: Connected to MongoDB
+2025-02-14T23:44:29.253Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:44:35.260Z [info]: Connected to MongoDB
+2025-02-14T23:44:35.265Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:44:44.977Z [info]: Connected to MongoDB
+2025-02-14T23:44:44.982Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:44:52.795Z [info]: Connected to MongoDB
+2025-02-14T23:44:52.801Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:44:59.142Z [info]: Connected to MongoDB
+2025-02-14T23:44:59.147Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:45:08.527Z [info]: Connected to MongoDB
+2025-02-14T23:45:08.532Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:45:25.215Z [info]: Connected to MongoDB
+2025-02-14T23:45:25.221Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:45:29.582Z [info]: Connected to MongoDB
+2025-02-14T23:45:29.588Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:45:32.803Z [info]: Connected to MongoDB
+2025-02-14T23:45:32.808Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:45:35.849Z [info]: Connected to MongoDB
+2025-02-14T23:45:35.854Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:45:38.056Z [info]: Connected to MongoDB
+2025-02-14T23:45:38.062Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:45:39.822Z [info]: Connected to MongoDB
+2025-02-14T23:45:39.829Z [info]: Server is running on http://localhost:3001
+2025-02-14T23:45:45.299Z [info]: Connected to MongoDB
+2025-02-14T23:45:45.305Z [info]: Server is running on http://localhost:3001
+2025-02-15T07:50:56.578Z [info]: Connected to MongoDB
+2025-02-15T07:50:56.583Z [info]: Server is running on http://localhost:3001
+2025-02-15T07:51:05.917Z [info]: Connected to MongoDB
+2025-02-15T07:51:05.922Z [info]: Server is running on http://localhost:3001
+2025-02-15T07:51:07.803Z [info]: Connected to MongoDB
+2025-02-15T07:51:07.806Z [info]: Server is running on http://localhost:3001
+2025-02-15T07:51:14.305Z [info]: Connected to MongoDB
+2025-02-15T07:51:14.311Z [info]: Server is running on http://localhost:3001
+2025-02-15T07:51:34.727Z [info]: Connected to MongoDB
+2025-02-15T07:51:34.731Z [info]: Server is running on http://localhost:3001
+2025-02-15T07:51:37.183Z [info]: Connected to MongoDB
+2025-02-15T07:51:37.188Z [info]: Server is running on http://localhost:3001
+2025-02-15T07:51:49.292Z [info]: Connected to MongoDB
+2025-02-15T07:51:49.298Z [info]: Server is running on http://localhost:3001
+2025-02-15T07:51:51.187Z [info]: Connected to MongoDB
+2025-02-15T07:51:51.191Z [info]: Server is running on http://localhost:3001
+2025-02-15T07:51:56.420Z [info]: Connected to MongoDB
+2025-02-15T07:51:56.424Z [info]: Server is running on http://localhost:3001
+2025-02-15T07:51:58.347Z [info]: Connected to MongoDB
+2025-02-15T07:51:58.351Z [info]: Server is running on http://localhost:3001
