@@ -2,11 +2,12 @@ import Quarter from './Quarter';
 
 export default function Year() {
     return (
-        <>
-            <h3>year</h3>
-            <Quarter />
-            <Quarter />
-            <Quarter />
-        </>
+      <div className="p-4">
+        <div className="flex gap-4">
+          <Quarter />
+          <Quarter />
+          <Quarter />
+        </div>
+      </div>
     );
-}
+  }
