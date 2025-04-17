@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
-import { getAllUsersService, insertUserService, deleteUserService } from "../models/userService";
-import { User } from "../models/userModel";
+import { getAllUsersService, insertUserService, getUserService } from "../models/userService";
+import { IUser } from "../models/userModel";
 import logger from "../utils/logger";
 
 // Get all users
@@ -23,7 +23,7 @@ export const getAllUsers = async (req: Request, res: Response): Promise<void> =>
 // Create a new user
 export const createUser = async (req: Request, res: Response): Promise<void> => {
   try {
-    const newUser: User = req.body;
+    const newUser: IUser = req.body;
     const createdUser = await insertUserService(newUser);
 
     if(createdUser._id) {
@@ -42,19 +42,18 @@ export const createUser = async (req: Request, res: Response): Promise<void> => 
   }
 };
 
-// Delete a user
-export const deleteUser = async (req: Request, res: Response): Promise<void> => {
+export const getUser = async (req: Request, res: Response): Promise<void> => {
   try {
-    const user: User = req.body;
-    await deleteUserService(user);
+    const user = await getUserService(req.body); // get user
 
-    res.status(200);
+    logger.info(`Fetched user from the database`);
+    res.status(200).json(user);
   } catch (error: unknown) {
     let message
     if (error instanceof Error) message = error.message
     else message = String(error)
 
-    logger.error(`Error deleting user: ${message}`);
+    logger.error(`Error fetching user: ${message}`);
     res.status(500).json({ error: message });
   }
-};
+}

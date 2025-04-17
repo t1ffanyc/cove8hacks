@@ -1,5 +1,5 @@
 import { getClient } from "../config/db";
-import { User } from "../models/userModel";
+import { IUser } from "../models/userModel";
 import logger from "../utils/logger";
 
 const DB_NAME = process.env.DB_NAME || "cove8hacks"; // default value for now
@@ -8,21 +8,21 @@ throw new Error("DB_NAME is not defined in .env file");
 }
 
 // Get all users from the database
-export const getAllUsersService = async (): Promise<User[]> => {
+export const getAllUsersService = async (): Promise<IUser[]> => {
     // get user collection
     let client = getClient();
     if(!client) {
         logger.error("Mongo client is not connected, unable to access database.");
         throw new Error("Mongo client not connected.");
     }
-    const usersCollection = client.db(DB_NAME).collection<User>("users");
+    const usersCollection = client.db(DB_NAME).collection<IUser>("users");
 
     // find all users
     return await usersCollection.find().toArray();
 };
 
 // Insert a new user into the database
-export const insertUserService = async (newUser: User): Promise<User> => {
+export const insertUserService = async (newUser: IUser): Promise<IUser> => {
     logger.debug(`Inserting new user into the database: ${JSON.stringify(newUser)}`);
 
     // get user collection
@@ -31,7 +31,7 @@ export const insertUserService = async (newUser: User): Promise<User> => {
         logger.error("Mongo client is not connected, unable to access database.");
         throw new Error("Mongo client not connected.");
     }
-    const usersCollection = client.db(DB_NAME).collection<User>("users");
+    const usersCollection = client.db(DB_NAME).collection<IUser>("users");
 
     // insert new user
     const result = await usersCollection.insertOne(newUser);
@@ -45,24 +45,6 @@ export const insertUserService = async (newUser: User): Promise<User> => {
     return insertedUser; // Return the created user
 }
 
-// Insert a new user into the database
-export const deleteUserService = async (user: User): Promise<null> => {
-    logger.debug(`Deleting user from the database: ${JSON.stringify(user)}`);
-
-    // get user collection
-    let client = getClient();
-    if(!client) {
-        logger.error("Mongo client is not connected, unable to access database.");
-        throw new Error("Mongo client not connected.");
-    }
-    const usersCollection = client.db(DB_NAME).collection<User>("users");
-
-    // delete user
-    const result = await usersCollection.deleteOne(user);
-
-    if (result.deletedCount != 1) {
-        logger.error("Failed to delete user");
-        throw new Error("Failed to delete user");
-    }
+export const getUserService = async (user: IUser): Promise<IUser> => {
     return null;
 }
