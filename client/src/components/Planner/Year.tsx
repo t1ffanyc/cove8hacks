@@ -1,4 +1,4 @@
-import Quarter from './Quarter.js';
+import Quarter from './Quarter';
 
 export default function Year() {
     return (
