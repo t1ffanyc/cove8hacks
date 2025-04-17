@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "options": {
-    "allowedHosts": ["localhost", ".localhost"],
+    "allowedHosts": [
+      "localhost",
+      ".localhost"
+    ],
     "proxy": "https://localhost:3001/api"
   },
   "dependencies": {
@@ -13,9 +16,11 @@
     "@testing-library/user-event": "^13.5.0",
     "@types/react": "^19.0.2",
     "@types/react-dom": "^19.0.2",
+    "axios": "^1.8.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-scripts": "5.0.1",
+    "react-query": "^3.39.3",
+    "react-scripts": "^5.0.1",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
@@ -42,5 +47,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/react-query": "^1.2.8"
   }
 }

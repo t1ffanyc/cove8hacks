@@ -200,3 +200,341 @@
 2025-02-15T07:51:56.424Z [info]: Server is running on http://localhost:3001
 2025-02-15T07:51:58.347Z [info]: Connected to MongoDB
 2025-02-15T07:51:58.351Z [info]: Server is running on http://localhost:3001
+2025-04-10T01:36:47.238Z [error]: Database connection failed: MongoDB connection timeout
+2025-04-10T01:41:46.110Z [info]: Connected to MongoDB
+2025-04-10T01:41:46.116Z [info]: Server is running on http://localhost:3001
+2025-04-10T01:45:58.344Z [info]: Connected to MongoDB
+2025-04-10T01:45:58.349Z [info]: Server is running on http://localhost:3001
+2025-04-10T01:46:39.448Z [info]: Connected to MongoDB
+2025-04-10T01:46:39.453Z [info]: Server is running on http://localhost:3001
+2025-04-10T01:46:41.621Z [info]: Connected to MongoDB
+2025-04-10T01:46:41.626Z [info]: Server is running on http://localhost:3001
+2025-04-10T01:49:01.178Z [info]: Connected to MongoDB
+2025-04-10T01:49:01.184Z [info]: Server is running on http://localhost:3001
+2025-04-10T01:49:08.804Z [info]: Connected to MongoDB
+2025-04-10T01:49:08.808Z [info]: Server is running on http://localhost:3001
+2025-04-10T01:49:13.761Z [info]: Connected to MongoDB
+2025-04-10T01:49:13.767Z [info]: Server is running on http://localhost:3001
+2025-04-17T07:50:04.736Z [info]: Connected to MongoDB
+2025-04-17T07:50:04.743Z [info]: Server is running on http://localhost:3001
+2025-04-17T07:51:35.445Z [info]: Connected to MongoDB
+2025-04-17T07:51:35.450Z [info]: Server is running on http://localhost:4000
+2025-04-17T08:01:10.747Z [info]: Connected to MongoDB
+2025-04-17T08:01:10.753Z [info]: Server is running on http://localhost:4000
+2025-04-17T08:11:24.556Z [info]: Connected to MongoDB
+2025-04-17T08:11:24.562Z [info]: Server is running on http://localhost:4000
+2025-04-17T08:11:32.373Z [info]: Connected to MongoDB
+2025-04-17T08:11:32.381Z [info]: Server is running on http://localhost:4000
+2025-04-17T08:11:34.835Z [info]: Connected to MongoDB
+2025-04-17T08:11:34.842Z [info]: Server is running on http://localhost:4000
+2025-04-17T08:14:40.022Z [info]: Connected to MongoDB
+2025-04-17T08:14:40.027Z [info]: Server is running on http://localhost:4000
+2025-04-17T08:14:45.864Z [info]: Connected to MongoDB
+2025-04-17T08:14:45.868Z [info]: Server is running on http://localhost:4000
+2025-04-17T08:14:47.362Z [info]: Connected to MongoDB
+2025-04-17T08:14:47.369Z [info]: Server is running on http://localhost:4000
+2025-04-17T08:14:51.295Z [info]: Connected to MongoDB
+2025-04-17T08:14:51.300Z [info]: Server is running on http://localhost:4000
+2025-04-17T08:14:59.714Z [info]: Connected to MongoDB
+2025-04-17T08:14:59.721Z [info]: Server is running on http://localhost:4000
+2025-04-17T08:15:25.616Z [info]: Connected to MongoDB
+2025-04-17T08:15:25.621Z [info]: Server is running on http://localhost:4000
+2025-04-17T08:16:15.000Z [info]: Connected to MongoDB
+2025-04-17T08:16:15.004Z [info]: Server is running on http://localhost:4000
+2025-04-17T08:16:28.387Z [info]: Connected to MongoDB
+2025-04-17T08:16:28.393Z [info]: Server is running on http://localhost:4000
+2025-04-17T08:17:36.542Z [info]: Connected to MongoDB
+2025-04-17T08:17:36.545Z [info]: Server is running on http://localhost:4000
+2025-04-17T08:18:57.352Z [info]: Connected to MongoDB
+2025-04-17T08:18:57.356Z [info]: Server is running on http://localhost:4000
+2025-04-17T08:19:01.474Z [info]: Connected to MongoDB
+2025-04-17T08:19:01.479Z [info]: Server is running on http://localhost:4000
+2025-04-17T08:19:17.981Z [info]: Connected to MongoDB
+2025-04-17T08:19:17.987Z [info]: Server is running on http://localhost:4000
+2025-04-17T18:03:53.317Z [info]: Connected to MongoDB
+2025-04-17T18:03:53.323Z [info]: Server is running on http://localhost:4000
+2025-04-17T18:04:04.382Z [warn]: user refreshing token
+2025-04-17T18:04:04.384Z [warn]: user refreshing token
+2025-04-17T18:04:04.385Z [warn]: user refreshing token
+2025-04-17T18:04:25.546Z [warn]: user refreshing token
+2025-04-17T18:04:25.550Z [warn]: user refreshing token
+2025-04-17T18:04:25.551Z [warn]: user refreshing token
+2025-04-17T18:04:54.560Z [warn]: user refreshing token
+2025-04-17T18:04:54.572Z [warn]: user refreshing token
+2025-04-17T18:05:25.051Z [warn]: user refreshing token
+2025-04-17T18:05:25.142Z [warn]: user refreshing token
+2025-04-17T18:16:02.433Z [warn]: user refreshing token
+2025-04-17T18:16:02.436Z [warn]: user refreshing token
+2025-04-17T18:16:02.495Z [warn]: user refreshing token
+2025-04-17T18:16:33.229Z [warn]: user refreshing token
+2025-04-17T18:34:34.271Z [warn]: user refreshing token
+2025-04-17T18:39:53.756Z [warn]: user refreshing token
+2025-04-17T18:45:22.168Z [warn]: user refreshing token
+2025-04-17T18:45:22.177Z [warn]: user refreshing token
+2025-04-17T18:45:58.162Z [warn]: user refreshing token
+2025-04-17T18:45:58.170Z [warn]: user refreshing token
+2025-04-17T18:46:16.161Z [warn]: user refreshing token
+2025-04-17T18:46:16.169Z [warn]: user refreshing token
+2025-04-17T18:46:18.161Z [warn]: user refreshing token
+2025-04-17T18:46:18.168Z [warn]: user refreshing token
+2025-04-17T18:46:41.167Z [warn]: user refreshing token
+2025-04-17T18:46:41.168Z [warn]: user refreshing token
+2025-04-17T18:46:41.170Z [warn]: user refreshing token
+2025-04-17T18:46:59.160Z [warn]: user refreshing token
+2025-04-17T18:46:59.168Z [warn]: user refreshing token
+2025-04-17T18:47:08.164Z [warn]: user refreshing token
+2025-04-17T18:47:08.174Z [warn]: user refreshing token
+2025-04-17T18:47:19.160Z [warn]: user refreshing token
+2025-04-17T18:47:19.168Z [warn]: user refreshing token
+2025-04-17T18:47:28.160Z [warn]: user refreshing token
+2025-04-17T18:47:28.188Z [warn]: user refreshing token
+2025-04-17T18:47:29.161Z [warn]: user refreshing token
+2025-04-17T18:47:29.169Z [warn]: user refreshing token
+2025-04-17T18:47:39.192Z [warn]: user refreshing token
+2025-04-17T18:47:39.221Z [warn]: user refreshing token
+2025-04-17T18:47:56.160Z [warn]: user refreshing token
+2025-04-17T18:47:56.168Z [warn]: user refreshing token
+2025-04-17T18:47:58.162Z [warn]: user refreshing token
+2025-04-17T18:47:58.169Z [warn]: user refreshing token
+2025-04-17T18:48:04.159Z [warn]: user refreshing token
+2025-04-17T18:48:04.166Z [warn]: user refreshing token
+2025-04-17T18:48:07.161Z [warn]: user refreshing token
+2025-04-17T18:48:07.171Z [warn]: user refreshing token
+2025-04-17T18:50:08.160Z [warn]: user refreshing token
+2025-04-17T18:50:08.167Z [warn]: user refreshing token
+2025-04-17T18:50:13.159Z [warn]: user refreshing token
+2025-04-17T18:50:13.166Z [warn]: user refreshing token
+2025-04-17T18:50:27.807Z [info]: Connected to MongoDB
+2025-04-17T18:50:27.812Z [info]: Server is running on http://localhost:4000
+2025-04-17T18:50:52.904Z [info]: Connected to MongoDB
+2025-04-17T18:50:52.909Z [info]: Server is running on http://localhost:4000
+2025-04-17T18:50:56.722Z [info]: Connected to MongoDB
+2025-04-17T18:50:56.728Z [info]: Server is running on http://localhost:4000
+2025-04-17T18:51:09.339Z [warn]: user refreshing token
+2025-04-17T18:51:09.344Z [warn]: user refreshing token
+2025-04-17T18:51:09.387Z [warn]: user refreshing token
+2025-04-17T18:56:13.274Z [info]: Connected to MongoDB
+2025-04-17T18:56:13.280Z [info]: Server is running on http://localhost:4000
+2025-04-17T18:56:44.841Z [info]: Connected to MongoDB
+2025-04-17T18:56:44.846Z [info]: Server is running on http://localhost:4000
+2025-04-17T18:56:51.919Z [info]: Connected to MongoDB
+2025-04-17T18:56:51.924Z [info]: Server is running on http://localhost:4000
+2025-04-17T18:57:04.160Z [info]: Connected to MongoDB
+2025-04-17T18:57:04.166Z [info]: Server is running on http://localhost:4000
+2025-04-17T18:57:06.589Z [info]: Connected to MongoDB
+2025-04-17T18:57:06.595Z [info]: Server is running on http://localhost:4000
+2025-04-17T18:57:10.463Z [info]: Connected to MongoDB
+2025-04-17T18:57:10.467Z [info]: Server is running on http://localhost:4000
+2025-04-17T18:57:15.999Z [warn]: user refreshing token
+2025-04-17T18:57:17.063Z [warn]: user refreshing token
+2025-04-17T18:57:17.071Z [warn]: user refreshing token
+2025-04-17T18:57:17.084Z [warn]: user refreshing token
+2025-04-17T18:57:25.869Z [info]: signup started!
+2025-04-17T18:58:25.128Z [info]: Connected to MongoDB
+2025-04-17T18:58:25.134Z [info]: Server is running on http://localhost:4000
+2025-04-17T18:58:31.513Z [info]: Connected to MongoDB
+2025-04-17T18:58:31.520Z [info]: Server is running on http://localhost:4000
+2025-04-17T18:58:42.664Z [info]: Connected to MongoDB
+2025-04-17T18:58:42.669Z [info]: Server is running on http://localhost:4000
+2025-04-17T18:59:04.162Z [info]: Connected to MongoDB
+2025-04-17T18:59:04.166Z [info]: Server is running on http://localhost:4000
+2025-04-17T18:59:10.006Z [info]: Connected to MongoDB
+2025-04-17T18:59:10.010Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:01:06.173Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:01:11.990Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:01:52.640Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:02:01.876Z [warn]: user refreshing token
+2025-04-17T19:02:01.879Z [warn]: user refreshing token
+2025-04-17T19:02:01.890Z [warn]: user refreshing token
+2025-04-17T19:02:14.178Z [info]: signup started!
+2025-04-17T19:07:42.468Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:07:43.470Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:07:55.688Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:07:56.879Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:08:01.119Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:08:01.715Z [info]: Mongo connected to DB:
+2025-04-17T19:08:06.689Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:08:07.235Z [info]: Mongo connected to DB:
+2025-04-17T19:08:32.164Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:08:32.720Z [info]: Mongo connected to DB:
+2025-04-17T19:09:25.840Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:09:26.536Z [info]: Mongo connected to DB:
+2025-04-17T19:09:30.924Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:09:31.471Z [info]: Mongo connected to DB:
+2025-04-17T19:09:35.832Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:09:36.355Z [info]: Mongo connected to DB:
+2025-04-17T19:09:37.501Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:09:38.106Z [info]: Mongo connected to DB:
+2025-04-17T19:09:58.027Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:09:58.634Z [info]: Mongo connected to DB:
+2025-04-17T19:10:33.446Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:10:34.007Z [info]: Mongo connected to DB:
+2025-04-17T19:11:01.126Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:11:01.660Z [info]: Mongo connected to DB:
+2025-04-17T19:11:02.922Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:11:03.874Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:11:04.584Z [info]: Mongo connected to DB:
+2025-04-17T19:11:08.100Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:11:08.640Z [info]: Mongo connected to DB:
+2025-04-17T19:11:10.824Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:11:11.428Z [info]: Mongo connected to DB:
+2025-04-17T19:11:13.367Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:11:14.009Z [info]: Mongo connected to DB:
+2025-04-17T19:11:24.173Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:11:24.718Z [info]: Mongo connected to DB:
+2025-04-17T19:11:30.413Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:11:30.896Z [info]: Mongo connected to DB:
+2025-04-17T19:11:35.055Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:11:35.690Z [info]: Mongo connected to DB:
+2025-04-17T19:11:40.431Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:11:41.025Z [info]: Mongo connected to DB:
+2025-04-17T19:11:47.121Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:11:47.729Z [info]: Mongo connected to DB:
+2025-04-17T19:11:51.672Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:11:53.046Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:11:53.826Z [info]: Mongo connected to DB:
+2025-04-17T19:11:58.287Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:11:58.832Z [info]: Mongo connected to DB:
+2025-04-17T19:12:11.533Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:12:12.177Z [info]: Mongo connected to DB:
+2025-04-17T19:12:15.971Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:12:16.610Z [info]: Mongo connected to DB:
+2025-04-17T19:13:31.361Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:13:31.938Z [info]: Mongo connected to DB:
+2025-04-17T19:13:41.055Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:13:47.595Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:13:56.764Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:13:57.361Z [error]: Failed to connect to database log is not defined
+Stack Trace: ReferenceError: log is not defined
+    at /Users/danielchen/dev/cove8hacks/server/src/index.ts:44:17
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-04-17T19:13:59.901Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:14:00.461Z [info]: Mongo connected
+2025-04-17T19:14:02.067Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:14:02.672Z [info]: Mongo Database connected
+2025-04-17T19:14:13.367Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:14:13.944Z [info]: Mongo Database connected
+2025-04-17T19:14:16.996Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:14:17.551Z [info]: Mongo Database connected
+2025-04-17T19:14:22.952Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:14:23.530Z [info]: Mongo Database connected
+2025-04-17T19:14:30.498Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:14:31.663Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:14:32.223Z [info]: Mongo Database connected
+2025-04-17T19:14:36.643Z [warn]: user refreshing token
+2025-04-17T19:14:36.654Z [warn]: user refreshing token
+2025-04-17T19:14:46.715Z [warn]: user refreshing token
+2025-04-17T19:14:46.717Z [warn]: user refreshing token
+2025-04-17T19:15:05.230Z [info]: signup started!
+2025-04-17T19:16:09.389Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:16:09.957Z [info]: Mongo Database connected
+2025-04-17T19:16:37.484Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:16:38.083Z [info]: Mongo Database connected
+2025-04-17T19:18:45.383Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:18:46.045Z [info]: Mongo Database connected
+2025-04-17T19:18:49.551Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:18:50.198Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:18:50.840Z [info]: Mongo Database connected
+2025-04-17T19:18:59.287Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:19:00.221Z [info]: Mongo Database connected
+2025-04-17T19:19:28.314Z [warn]: user refreshing token
+2025-04-17T19:19:28.344Z [warn]: user refreshing token
+2025-04-17T19:19:28.379Z [warn]: user refreshing token
+2025-04-17T19:21:00.154Z [warn]: user refreshing token
+2025-04-17T19:21:05.150Z [warn]: user refreshing token
+2025-04-17T19:21:17.148Z [warn]: user refreshing token
+2025-04-17T19:21:21.151Z [warn]: user refreshing token
+2025-04-17T19:21:25.149Z [warn]: user refreshing token
+2025-04-17T19:22:51.148Z [warn]: user refreshing token
+2025-04-17T19:22:56.147Z [warn]: user refreshing token
+2025-04-17T19:23:05.148Z [warn]: user refreshing token
+2025-04-17T19:23:11.146Z [warn]: user refreshing token
+2025-04-17T19:23:13.146Z [warn]: user refreshing token
+2025-04-17T19:23:21.146Z [warn]: user refreshing token
+2025-04-17T19:23:38.145Z [warn]: user refreshing token
+2025-04-17T19:23:41.148Z [warn]: user refreshing token
+2025-04-17T19:23:47.153Z [warn]: user refreshing token
+2025-04-17T19:23:50.147Z [warn]: user refreshing token
+2025-04-17T19:24:11.146Z [warn]: user refreshing token
+2025-04-17T19:24:14.146Z [warn]: user refreshing token
+2025-04-17T19:24:25.153Z [warn]: user refreshing token
+2025-04-17T19:24:32.146Z [warn]: user refreshing token
+2025-04-17T19:24:45.147Z [warn]: user refreshing token
+2025-04-17T19:24:50.145Z [warn]: user refreshing token
+2025-04-17T19:24:52.145Z [warn]: user refreshing token
+2025-04-17T19:24:56.146Z [warn]: user refreshing token
+2025-04-17T19:24:59.146Z [warn]: user refreshing token
+2025-04-17T19:25:04.146Z [warn]: user refreshing token
+2025-04-17T19:25:23.145Z [warn]: user refreshing token
+2025-04-17T19:25:27.145Z [warn]: user refreshing token
+2025-04-17T19:25:28.144Z [warn]: user refreshing token
+2025-04-17T19:25:39.144Z [warn]: user refreshing token
+2025-04-17T19:25:42.144Z [warn]: user refreshing token
+2025-04-17T19:25:48.145Z [warn]: user refreshing token
+2025-04-17T19:25:51.145Z [warn]: user refreshing token
+2025-04-17T19:25:52.146Z [warn]: user refreshing token
+2025-04-17T19:26:40.144Z [warn]: user refreshing token
+2025-04-17T19:26:44.144Z [warn]: user refreshing token
+2025-04-17T19:26:48.160Z [warn]: user refreshing token
+2025-04-17T19:26:50.145Z [warn]: user refreshing token
+2025-04-17T19:26:59.144Z [warn]: user refreshing token
+2025-04-17T19:27:09.143Z [warn]: user refreshing token
+2025-04-17T19:27:11.144Z [warn]: user refreshing token
+2025-04-17T19:27:18.143Z [warn]: user refreshing token
+2025-04-17T19:27:28.143Z [warn]: user refreshing token
+2025-04-17T19:27:40.142Z [warn]: user refreshing token
+2025-04-17T19:27:52.142Z [warn]: user refreshing token
+2025-04-17T19:27:59.142Z [warn]: user refreshing token
+2025-04-17T19:28:22.143Z [warn]: user refreshing token
+2025-04-17T19:28:34.141Z [warn]: user refreshing token
+2025-04-17T19:28:40.142Z [warn]: user refreshing token
+2025-04-17T19:28:48.142Z [warn]: user refreshing token
+2025-04-17T19:28:51.140Z [warn]: user refreshing token
+2025-04-17T19:28:54.141Z [warn]: user refreshing token
+2025-04-17T19:29:05.141Z [warn]: user refreshing token
+2025-04-17T19:29:13.142Z [warn]: user refreshing token
+2025-04-17T19:29:28.141Z [warn]: user refreshing token
+2025-04-17T19:29:38.140Z [warn]: user refreshing token
+2025-04-17T19:29:46.141Z [warn]: user refreshing token
+2025-04-17T19:29:48.140Z [warn]: user refreshing token
+2025-04-17T19:30:02.140Z [warn]: user refreshing token
+2025-04-17T19:30:07.141Z [warn]: user refreshing token
+2025-04-17T19:30:15.141Z [warn]: user refreshing token
+2025-04-17T19:30:25.141Z [warn]: user refreshing token
+2025-04-17T19:30:28.138Z [warn]: user refreshing token
+2025-04-17T19:30:32.139Z [warn]: user refreshing token
+2025-04-17T19:30:37.139Z [warn]: user refreshing token
+2025-04-17T19:30:38.141Z [warn]: user refreshing token
+2025-04-17T19:30:40.141Z [warn]: user refreshing token
+2025-04-17T19:30:46.139Z [warn]: user refreshing token
+2025-04-17T19:30:49.139Z [warn]: user refreshing token
+2025-04-17T19:33:56.144Z [warn]: user refreshing token
+2025-04-17T19:33:56.148Z [warn]: user refreshing token
+2025-04-17T19:34:43.136Z [warn]: user refreshing token
+2025-04-17T19:34:43.143Z [warn]: user refreshing token
+2025-04-17T19:37:56.292Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:37:56.997Z [info]: Mongo Database connected
+2025-04-17T19:37:57.824Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:37:58.417Z [info]: Mongo Database connected
+2025-04-17T19:38:03.802Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:38:04.329Z [info]: Mongo Database connected
+2025-04-17T19:38:11.269Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:38:11.772Z [info]: Mongo Database connected
+2025-04-17T19:38:20.943Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:38:21.491Z [info]: Mongo Database connected
+2025-04-17T19:38:33.943Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:38:34.521Z [info]: Mongo Database connected
+2025-04-17T19:38:40.895Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:38:41.413Z [info]: Mongo Database connected
+2025-04-17T19:39:00.409Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:39:00.959Z [info]: Mongo Database connected
+2025-04-17T19:39:03.180Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:39:03.844Z [info]: Mongo Database connected
+2025-04-17T19:39:15.911Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:39:16.463Z [info]: Mongo Database connected
+2025-04-17T19:39:30.701Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:39:31.310Z [info]: Mongo Database connected
+2025-04-17T19:39:35.144Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:39:35.696Z [info]: Mongo Database connected
+2025-04-17T19:39:40.026Z [info]: Server is running on http://localhost:4000
+2025-04-17T19:39:40.680Z [info]: Mongo Database connected
