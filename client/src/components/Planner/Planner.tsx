@@ -3,14 +3,13 @@ import Year from './Year';
 export default function Planner() {
     return (
         <div className="column" style={{ backgroundColor: 'white' }}>
-            <h2>planner</h2>
+            <h1 className="mb-6">freshman</h1>
             <Year />
+            <h1 className="mb-6">sophomore</h1>
             <Year />
+            <h1 className="mb-6">junior</h1>
             <Year />
-            <Year />
-            <Year />
-            <Year />
-            <Year />
+            <h1 className="mb-6">senior</h1>
             <Year />
         </div>
     );
