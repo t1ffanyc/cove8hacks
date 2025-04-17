@@ -41,12 +41,14 @@ export const signin = async (req: Request, res: Response) => {
         return;
     }
 
+    // check against user from database
     const user = await User.findOne({ email });
     if (!user || !(await bcrypt.compare(password, user.password))) {
         res.status(401).json({ message: "Invalid credentials" });
         return;
     }
 
+    // provide new access and refresh tokens
     const accessToken = jwt.sign({ sub: user._id }, AT_SECRET, {
         expiresIn: AT_EXPIRES,
     });
@@ -71,6 +73,7 @@ export const signin = async (req: Request, res: Response) => {
     logger.debug('User successfully signed in');
 };
 
+// refresh the user's access token, checking if their refresh token is valid
 export const refreshToken = (req: Request, res: Response) => {
     const token = req.cookies.refreshToken;
     logger.warn('user refreshing token');
@@ -96,6 +99,7 @@ export const refreshToken = (req: Request, res: Response) => {
     }
 };
 
+// clear tokens on signout
 export const signout = (req: Request, res: Response) => {
     res.clearCookie("accessToken")
         .clearCookie("refreshToken")
