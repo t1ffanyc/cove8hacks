@@ -76,7 +76,6 @@ export const signin = async (req: Request, res: Response) => {
 // refresh the user's access token, checking if their refresh token is valid
 export const refreshToken = (req: Request, res: Response) => {
     const token = req.cookies.refreshToken;
-    logger.warn('user refreshing token');
     if (!token) {
         res.status(204).json({ message: "No refresh token, likely not logged in." });
         return;

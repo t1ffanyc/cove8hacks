@@ -1,8 +1,10 @@
 /* TEMPORARY SIGNIN COMPONENT */
 import React, { useState } from "react";
 import { useAuth } from "context/authContext";
+import { useNavigate } from "react-router";
 
-export default function SignIn() {
+export default function TempSignIn() {
+    const navigate = useNavigate();
     const { signIn } = useAuth();
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
@@ -13,7 +15,8 @@ export default function SignIn() {
         try {
             await signIn(email, password);
             console.log("Successfully signed in");
-            // TODO: redirect to protected page
+            navigate('/', { replace: true });
+
         } catch (e: any) {
             console.log("Successfully signed in");
             setErr(e.response?.data?.message || "Error signing in");
@@ -21,6 +24,8 @@ export default function SignIn() {
     };
 
     return (
+        <div>
+        <h1> Temp Sign in page! </h1>
         <form onSubmit={onSubmit}>
             {err && <p style={{ color: "red" }}>{err}</p>}
             <input
@@ -39,5 +44,6 @@ export default function SignIn() {
             />
             <button type='submit'>Sign In</button>
         </form>
+        </div>
     );
 }

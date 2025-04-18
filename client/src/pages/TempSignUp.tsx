@@ -1,9 +1,11 @@
 /* TEMPORARY SIGNUP COMPONENT */
 import React, { useState } from "react";
 import { useAuth } from "context/authContext";
+import { useNavigate } from "react-router";
 
-export default function SignUp() {
-    const { user, signUp } = useAuth();
+export default function TempSignUp() {
+    const navigate = useNavigate();
+    const { signUp } = useAuth();
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
@@ -14,7 +16,7 @@ export default function SignUp() {
         try {
             await signUp(name, email, password);
             console.log("Successfully signed up");
-            // TODO: redirect or show success message
+            navigate('/', { replace: true });
         } catch (e: any) {
             console.error("Error signing up");
             setErr(e.response?.data?.message || "Error signing up");
@@ -23,6 +25,7 @@ export default function SignUp() {
 
     return (
         <div>
+            <h1>TEMP Signup page!</h1>
             <form onSubmit={onSubmit}>
                 {err && <p style={{ color: "red" }}>{err}</p>}
                 <input
@@ -47,7 +50,6 @@ export default function SignUp() {
                 />
                 <button type='submit'>Sign Up</button>
             </form>
-            <p> The user is currently... {user ? JSON.stringify(user) : 'Not logged in'}</p>
         </div>
     );
 }

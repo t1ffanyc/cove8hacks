@@ -46,4 +46,4 @@ const DegreeRequirementSchema: Schema = new Schema({
   },
 });
 
-export default mongoose.model<DegreeRequirement>("DegreeRequirement", DegreeRequirementSchema);
+export default mongoose.model<IDegreeRequirement>("DegreeRequirement", DegreeRequirementSchema);

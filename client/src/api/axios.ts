@@ -29,7 +29,7 @@ api.interceptors.response.use(
 /* DEFINING FUNCTIONS TO FETCH FROM THE API */
 export const fetchCurrentUser = async (): Promise<User | null> => {
   try {
-    const res = await api.get('/api/user/me');
+    const res = await api.get('/api/users/me');
     return res.data;
   } catch (err: any) {
     if (err.response?.status === 401) {

@@ -414,3 +414,22 @@ Stack Trace: ReferenceError: log is not defined
 2025-04-17T20:41:11.287Z [info]: Mongo Database connected
 2025-04-17T20:41:19.785Z [info]: Server is running on http://localhost:4000
 2025-04-17T20:41:20.435Z [info]: Mongo Database connected
+2025-04-17T22:44:26.861Z [info]: Server is running on http://localhost:4000
+2025-04-17T22:44:27.493Z [info]: Mongo Database connected
+2025-04-17T23:39:06.849Z [info]: Server is running on http://localhost:4000
+2025-04-17T23:39:07.446Z [info]: Mongo Database connected
+2025-04-17T23:40:09.739Z [warn]: user refreshing token
+2025-04-17T23:40:09.750Z [warn]: user refreshing token
+2025-04-17T23:40:09.760Z [warn]: user refreshing token
+2025-04-18T00:04:01.063Z [warn]: user refreshing token
+2025-04-18T00:04:01.068Z [warn]: user refreshing token
+2025-04-18T00:04:01.073Z [warn]: user refreshing token
+2025-04-18T00:05:31.227Z [info]: Server is running on http://localhost:4000
+2025-04-18T00:05:32.045Z [info]: Mongo Database connected
+2025-04-18T00:05:39.281Z [info]: Server is running on http://localhost:4000
+2025-04-18T00:05:39.897Z [info]: Mongo Database connected
+2025-04-18T00:16:38.988Z [info]: Fetched user from the database
+2025-04-18T00:16:41.219Z [info]: Fetched user from the database
+2025-04-18T00:23:25.263Z [info]: Fetched user from the database
+2025-04-18T00:23:26.449Z [info]: Fetched user from the database
+2025-04-18T00:24:25.467Z [info]: Fetched user from the database

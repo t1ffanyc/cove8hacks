@@ -5,6 +5,7 @@ import dotenv from "dotenv";
 import path from "path";
 import mongoose from "mongoose";
 dotenv.config({ path: path.resolve(__dirname, "../../.env") }); // setup env variables first... cuz imports need them too
+
 import logger from "./utils/logger";
 import userRoutes from "./routes/userRoutes";
 import authRoutes from "./routes/authRoutes";
@@ -22,9 +23,6 @@ if (!process.env.REFRESH_TOKEN_SECRET) {
     logger.error("Missing Refresh Token Secret");
     process.exit(1);
 }
-
-
-
 
 // set up express app
 const PORT = process.env.PORT || 4000;
