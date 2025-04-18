@@ -1,4 +1,4 @@
-import mongoose, { Document, Schema } from 'mongoose';
+import { Document, Schema } from 'mongoose';
 
 export interface ISchedule extends Document {
     temp: number

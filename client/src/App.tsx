@@ -1,23 +1,31 @@
-import React, { useState } from "react";
-import { Navbar, Planner, Requirements, Class } from './components';
 import "./App.css";
-
+import { Routes, Route, Navigate } from "react-router";
+import { RequireAuth } from "components";
+import TempSignIn from "pages/TempSignIn";
+import TempSignUp from "pages/TempSignUp";
+import Home from "pages/Home";
+import RequireNoAuth from "components/RequireNoAuth";
+import Layout from "components/Layout";
+import NotFound from "pages/NotFound";
 
 export default function App() {
-  return (
-    <div className="min-h-screen bg-white">
-      <Navbar />
-      <main className="p-6">
-        <h1 className="text-2xl font-bold mb-6">hello!</h1>
-        <div className="flex items-start gap-6">
-          <div className="flex-1">
-            <Planner />
-          </div>
-          <div className="w-64">
-            <Requirements />
-          </div>
-        </div>
-      </main>
-    </div>
-  );
+    return (
+        <Routes>
+                <Route element={<Layout />}>
+                {/* public routes */}
+                <Route element={<RequireNoAuth />}>
+                    <Route path='/signin' element={<TempSignIn />} />
+                    <Route path='/signup' element={<TempSignUp />} />
+                </Route>
+
+                {/* routes that require auth */}
+                <Route element={<RequireAuth />}>
+                    <Route path='/' element={<Home />} />
+                </Route>
+
+                {/* Fallback */}
+                <Route path='*' element={<NotFound />} />
+            </Route>
+        </Routes>
+    );
 }
