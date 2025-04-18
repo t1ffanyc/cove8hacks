@@ -11,15 +11,8 @@ export default function RequireAuth() {
   if (isLoading) {
     return <Loading />;
   }
-  
-  if (!user) {
-    return (
-      <Navigate
-        to="/signin"
-        replace
-        state={{ from: location.pathname }}
-      />
-    );
-  }
-  return <Outlet />;
+
+  return user
+    ? <Outlet />
+    : <Navigate to="/signin" replace  state={{ from: location.pathname }}/>
 }

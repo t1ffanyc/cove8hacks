@@ -16,8 +16,6 @@ import {
     signOut as signOutAPI,
 } from "../api/axios";
 
-
-
 // define types and context
 interface User {
     _id: string;
@@ -36,7 +34,7 @@ interface AuthContextType {
 }
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
 
-// provide an auth context that wraps the app, fetching the current user and exposing signin/signup/signout functions 
+// provide an auth context that wraps the app, fetching the current user and exposing signin/signup/signout functions
 export const AuthProvider = ({ children }: AuthProviderProps) => {
     const qc = useQueryClient();
 
@@ -77,7 +75,8 @@ export const AuthProvider = ({ children }: AuthProviderProps) => {
     const signOut = useCallback(async () => {
         await signOutAPI();
         qc.clear();
-    }, [qc]);
+        await refetch();
+    }, [qc, refetch]);
 
     // children can access the current user, whether its loading, and signin/signup/signout functions
     const val = useMemo(
