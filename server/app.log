@@ -40,3 +40,16 @@
 2025-02-15T07:51:56.424Z [info]: Server is running on http://localhost:3001
 2025-02-15T07:51:58.347Z [info]: Connected to MongoDB
 
+2025-04-21T19:12:53.310Z [info]: Connected to MongoDB
+2025-04-21T19:12:53.323Z [info]: Server is running on http://localhost:3001
+2025-04-21T19:14:23.634Z [info]: Connected to MongoDB
+2025-04-21T19:14:23.638Z [info]: Server is running on http://localhost:3001
+2025-04-21T19:16:42.689Z [error]: Database connection failed: MONGO_URI is not defined in .env file
+2025-04-21T19:17:58.709Z [error]: Database connection failed: MONGO_URI is not defined in .env file
+2025-04-21T19:22:03.251Z [info]: ✅ Connected to MongoDB via Mongoose
+2025-04-21T19:22:03.258Z [info]: Server is running on http://localhost:3001
+2025-04-21T19:23:26.909Z [info]: Connected to MongoDB via Mongoose
+2025-04-21T19:23:26.914Z [info]: Server is running on http://localhost:3001
+2025-04-21T19:40:24.962Z [info]: Connected to MongoDB via Mongoose
+2025-04-21T19:41:22.698Z [info]: Connected to MongoDB via Mongoose
+2025-04-21T19:45:13.467Z [info]: Connected to MongoDB via Mongoose
