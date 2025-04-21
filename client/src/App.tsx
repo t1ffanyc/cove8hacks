@@ -1,44 +1,23 @@
-import './App.css';
-import React, { useState } from 'react';
-import { Header, Planner, Requirements } from './components/index.js'
-import { DndProvider, IContainers } from './dnd/DragDropContext';
-import DroppableWrapper from 'dnd/DroppableWrapper';
-import TestContainer from 'dnd/TestContainer';
-// import DroppableContainer from './DragDrop/DroppableContainer';
+import React, { useState } from "react";
+import { Navbar, Planner, Requirements, Class } from './components';
+import "./App.css";
 
-function App() {
-  // DRAG DROP TESTER
-  const [containers, setContainers] = useState<IContainers>({
-    container1: [
-      { id: 'draggable-1'},
-      { id: 'draggable-2'},
-    ],
-    container2: [
-      { id: 'draggable-3' },
-      { id: 'draggable-4' },
-    ],
-  });
-  
-  // wrap in DragDropProvider, pass prop to access and change the containers. 
+
+export default function App() {
   return (
-    <DndProvider containers={containers} setContainers={setContainers}>
-      <div style={{ display: 'flex' }}>
-        <TestContainer id={"container1"} />
-        <TestContainer id={"container2"} />
-      </div>
-    </DndProvider>
+    <div className="min-h-screen bg-white">
+      <Navbar />
+      <main className="p-6">
+        <h1 className="text-2xl font-bold mb-6">hello!</h1>
+        <div className="flex items-start gap-6">
+          <div className="flex-1">
+            <Planner />
+          </div>
+          <div className="w-64">
+            <Requirements />
+          </div>
+        </div>
+      </main>
+    </div>
   );
-  
-  // return (
-  //   <div className="App">
-  //     <Header />
-  //     <div className="container">
-  //       <Planner />
-  //       <div className="line"></div>
-  //       <Requirements />
-  //     </div>
-  //   </div>
-  // );
 }
-
-export default App;

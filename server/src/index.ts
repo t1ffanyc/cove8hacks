@@ -1,6 +1,7 @@
 import express, { Application } from "express";
 
-import dotenv from "dotenv"; // setup env variables
+// setup env variables
+import dotenv from "dotenv"; 
 import path from "path";
 dotenv.config({
   path: path.resolve(__dirname, "../../.env")
@@ -10,10 +11,11 @@ import userRoutes from "./routes/userRoutes";
 import { connectToDatabase } from "./config/db";
 import logger from "./utils/logger";
 
-const app: Application = express(); // create express app
+// set up express app
+const app: Application = express(); 
 app.use(express.json()); // middleware for JSON parsing
-
 const PORT = process.env.PORT || 3001;
+
 
 async function startServer() {
   try {
