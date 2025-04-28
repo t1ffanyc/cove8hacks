@@ -59,9 +59,12 @@ export const AuthProvider = ({ children }: AuthProviderProps) => {
     const signIn = useCallback(
         async (email: string, password: string) => {
             await signInAPI(email, password);
-            await refetch();
+            await qc.invalidateQueries(['me'], { 
+                refetchActive: true,   // immediately invalidate current user object and refetch
+                refetchInactive: false,  
+            });
         },
-        [refetch]
+        [qc]
     );
 
     const signUp = useCallback(
@@ -74,9 +77,8 @@ export const AuthProvider = ({ children }: AuthProviderProps) => {
 
     const signOut = useCallback(async () => {
         await signOutAPI();
-        qc.clear();
-        await refetch();
-    }, [qc, refetch]);
+        qc.invalidateQueries("me");   
+    }, [qc]);
 
     // children can access the current user, whether its loading, and signin/signup/signout functions
     const val = useMemo(

@@ -25,7 +25,7 @@ export default function TempSignUp() {
 
     return (
         <div>
-            <h1>TEMP Signup page!</h1>
+            <h1>TEMP Signup page! (Maybe just change the form on the signin page instead of redirecting)</h1>
             <form onSubmit={onSubmit}>
                 {err && <p style={{ color: "red" }}>{err}</p>}
                 <input
